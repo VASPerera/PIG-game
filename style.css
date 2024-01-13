@@ -107,6 +107,8 @@ html{
     font-size: 1.2rem;
     position: relative;
     top: -15rem;
+    cursor: pointer;
+    padding: 0.3rem;
 }
 
 .dice{
@@ -114,6 +116,12 @@ html{
     width: 5rem;
     position: relative;
     top: -10rem;
+
+}
+
+.inner-dice{
+    width: 5rem;
+    height: 5rem;
 }
 
 .roll-dice{
@@ -125,9 +133,12 @@ html{
     text-align: center;
     position: relative;
     top: 6rem;
+    cursor: pointer;
+    padding: 0.5rem;
 }
 
 .hold{
+    padding: 0.5rem;
     border: 0.05rem solid white;
     background-color: white;
     border-radius: 4rem;
@@ -136,4 +147,9 @@ html{
     text-align: center;
     position: relative;
     top: 8rem ;
+    cursor: pointer;
 }
+
+  .hidden{
+    display: none;
+}  
