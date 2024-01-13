@@ -9,7 +9,7 @@ const btnHold = document.querySelector('.hold');
 
 
  diceEl.classList.remove('hidden');
- score.textContent = 'hgs';
+ score0.textContent = 'hgs';
 
 //rolling dice functionality
 btnRoll.addEventListener('click', function(){
