@@ -112,6 +112,7 @@ html{
 }
 
 .dice{
+    
     height: 5rem;
     width: 5rem;
     position: relative;
@@ -119,10 +120,7 @@ html{
 
 }
 
-.inner-dice{
-    width: 5rem;
-    height: 5rem;
-}
+
 
 .roll-dice{
     border: 0.05rem solid white;
