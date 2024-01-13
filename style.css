@@ -11,7 +11,7 @@ html{
 }
 
 .container{
-    background-image: linear-gradient(to bottom right, #da340f, #da0f7d);
+    background-image: linear-gradient(to bottom right, #753682, #bf2e34 100%);
     height: 100vh;
     position: relative;
 
@@ -72,8 +72,8 @@ html{
     background-color:#da0f7d;
     width: 15rem;
     height: 6rem;
-    position: absolute;
-    top: 32rem;
+    position: relative;
+    top: 25rem;
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
