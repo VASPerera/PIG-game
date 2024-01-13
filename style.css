@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;;
 }
 
 html{
@@ -16,7 +17,7 @@ html{
 }
 
 .inner-container{
-    border: 0.1rem solid black;
+    border: 0.1rem solid blanchedalmond;
     border-radius: 0.5rem;
     box-shadow: #da0f7d;
 
@@ -32,7 +33,7 @@ html{
 
 .player{
     position: relative;
-    border:0.1rem solid black ;
+    border:0.1rem solid blanchedalmond ;
     width: 50%;
     display: flex;
     flex-direction: column;
