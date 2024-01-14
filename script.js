@@ -1,6 +1,6 @@
 'use strict';
 
-const score0 = document.querySelector('#score--0');
+const score0 = document.getElementById('score--0');
 const score1 = document.getElementById('score--1');
 const currentScore0El = document.getElementById('currentscore--0');
 const currentScore1El = document.getElementById('currentscore--1');
