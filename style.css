@@ -18,7 +18,7 @@ html{
 }
 
 .inner-container{
-    border: 0.1rem solid blanchedalmond;
+    border: 0.1rem solid none;
     border-radius: 0.5rem;
     box-shadow: #da0f7d;
 
@@ -34,7 +34,7 @@ html{
 
 .player{
     position: relative;
-    border:0.1rem solid blanchedalmond ;
+    border:0.1rem solid none;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -43,15 +43,18 @@ html{
 }
 
 .player--0{
-    background-color: blanchedalmond;
+    background-color: #F17A97;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .player--1{
-    background-color: blanchedalmond;
-    filter: blur(0.1rem);
+    background-color: #F17A97;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+}
+
+.active--player{
+    background-color: #F1B5C4;
 }
 
 .name{
@@ -63,11 +66,11 @@ html{
     font-size: 3.5rem;
     position: absolute;
     top: 10rem;
-    color: #da0f7d;
+    color: #E32A58;
 }
 
 .current{
-    border: 0.1rem solid #da0f7d;
+    border: 0.1rem solid none;
     border-radius: 0.2rem;
     background-color:#da0f7d;
     width: 15rem;
