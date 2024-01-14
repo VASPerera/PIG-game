@@ -103,6 +103,7 @@ html{
 .game{
     border: 0.05rem solid white;
     background-color: white;
+    opacity: .7;
     border-radius: 4rem;
     width: 10rem;
     height: 2rem;
@@ -112,6 +113,10 @@ html{
     top: -15rem;
     cursor: pointer;
     padding: 0.3rem;
+}
+
+.game:active{
+    transform: scale(0.98);
 }
 
 .dice{
@@ -125,9 +130,11 @@ html{
 
 
 
+
 .roll-dice{
     border: 0.05rem solid white;
     background-color: white;
+    opacity: .7;
     border-radius: 4rem;
     width: 9rem;
     height: 2rem;
@@ -138,10 +145,15 @@ html{
     padding: 0.5rem;
 }
 
+.roll-dice:active{
+    transform: scale(0.98);
+}
+
 .hold{
     padding: 0.5rem;
     border: 0.05rem solid white;
     background-color: white;
+    opacity: .7;
     border-radius: 4rem;
     width: 7rem;
     height: 2rem;
@@ -151,6 +163,52 @@ html{
     cursor: pointer;
 }
 
+.hold:active{
+    transform: scale(0.98);
+}
+
   .hidden{
     display: none;
 }  
+
+
+@media only screen and (max-width: 768px) {
+    .inner-container {
+        width: 90%;
+    }
+
+    .player {
+        padding: 1rem;
+    }
+
+    .current {
+        top: 1rem;
+    }
+
+    .game,
+    .roll-dice,
+    .hold {
+        top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .inner-container {
+        width: 100%;
+    }
+
+    .player {
+        padding: 0.5rem;
+    }
+
+    .current {
+        top: 0.5rem;
+    }
+
+    .game,
+    .roll-dice,
+    .hold {
+        top: 0.5rem;
+    }
+} 
+
