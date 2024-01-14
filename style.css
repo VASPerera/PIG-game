@@ -2,21 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 
 html{
     font-size: 62.5%;
+
 }
 
 .container{
-    background-image: linear-gradient(to bottom right, #da340f, #da0f7d);
+    background-image: linear-gradient(to bottom right, #753682, #bf2e34 100%);
     height: 100vh;
     position: relative;
 
 }
 
 .inner-container{
-    border: 0.1rem solid black;
+    border: 0.1rem solid blanchedalmond;
     border-radius: 0.5rem;
     box-shadow: #da0f7d;
 
@@ -32,7 +34,7 @@ html{
 
 .player{
     position: relative;
-    border:0.1rem solid black ;
+    border:0.1rem solid blanchedalmond ;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -70,8 +72,8 @@ html{
     background-color:#da0f7d;
     width: 15rem;
     height: 6rem;
-    position: absolute;
-    top: 32rem;
+    position: relative;
+    top: 25rem;
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
@@ -105,14 +107,20 @@ html{
     font-size: 1.2rem;
     position: relative;
     top: -15rem;
+    cursor: pointer;
+    padding: 0.3rem;
 }
 
 .dice{
+    
     height: 5rem;
     width: 5rem;
     position: relative;
     top: -10rem;
+
 }
+
+
 
 .roll-dice{
     border: 0.05rem solid white;
@@ -123,9 +131,12 @@ html{
     text-align: center;
     position: relative;
     top: 6rem;
+    cursor: pointer;
+    padding: 0.5rem;
 }
 
 .hold{
+    padding: 0.5rem;
     border: 0.05rem solid white;
     background-color: white;
     border-radius: 4rem;
@@ -134,4 +145,9 @@ html{
     text-align: center;
     position: relative;
     top: 8rem ;
+    cursor: pointer;
 }
+
+  .hidden{
+    display: none;
+}  
